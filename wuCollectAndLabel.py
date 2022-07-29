@@ -13,7 +13,7 @@ for label in labels:
     os.makedirs(path, exist_ok=True)
 
 for label in labels:
-    cap = cv2.VideoCapture("0") #your webcam
+    cap = cv2.VideoCapture("0") #your webcam IP address or device
     print('Collecting images for {}'.format(label))
     time.sleep(5)
     for imgnum in range(number_imgs):
