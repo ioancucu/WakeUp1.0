@@ -13,7 +13,7 @@ for label in labels:
     os.makedirs(path, exist_ok=True)
 
 for label in labels:
-    cap = cv2.VideoCapture("https://192.168.0.181:8080/video")
+    cap = cv2.VideoCapture("0")
     print('Collecting images for {}'.format(label))
     time.sleep(5)
     for imgnum in range(number_imgs):
